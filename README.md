@@ -29,7 +29,7 @@ Then init your node using
 ```
 ipfs init
 ```
-If you cat out the readme using the line 
+If you cat out the readme file for more info using 
 ```
 ipfs cat /ipfs/<your-peer-iden>/readme
 ```
