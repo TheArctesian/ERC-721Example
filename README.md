@@ -1,6 +1,6 @@
 # ERC-721Example
 
-First go to the [IPFS website](https://docs.ipfs.io/install/command-line/#official-distributions) and follow the install steps. I'm using arch btw so just
+First go to the [IPFS website](https://docs.ipfs.io/install/command-line/#official-distributions) and follow the install steps. I'm using arch btw so can install from the AUR with yay or aurman
 ```
 yay go-ipfs
 ```
@@ -8,7 +8,20 @@ if on mac should work
 ```
 brew install ipfs
 ```
-you can check if ipfs is install by doing, if this dose not work then follow the [docs](https://docs.ipfs.io/install/command-line/#official-distributions) 
+if that dose not work then 
+```
+curl -O https://dist.ipfs.io/go-ipfs/v0.11.0/go-ipfs_v0.11.0_darwin-amd64.tar.gz
+```
+then unzip 
+```
+tar -xvzf go-ipfs_v0.11.0_darwin-amd64.tar.gz
+```
+the go into the dir and install using the install.sh 
+```
+cd go-ipfs
+bash install.sh
+```
+you can check if ipfs is install by doing, if this dose not work then follow the [docs](https://docs.ipfs.io/install/command-line/#official-distributions), my ethical values bar me from putting a w****** install guide
 ```
 $ ipfs --version
 ```
