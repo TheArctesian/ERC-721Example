@@ -4,7 +4,11 @@ First go to the [IPFS website](https://docs.ipfs.io/install/command-line/#offici
 ```
 yay go-ipfs
 ```
-you can check if ipfs is install by doing 
+if on mac should work
+```
+brew install ipfs
+```
+you can check if ipfs is install by doing, if this dose not work then follow the [docs](https://docs.ipfs.io/install/command-line/#official-distributions) 
 ```
 $ ipfs --version
 ```
