@@ -110,6 +110,7 @@ npm install --save-dev @openzeppelin/hardhat-upgrades
 create a .sol file and just copy and paste the file in my contract
 
 <hr>
+
 ## Front end 
 
 I would usually use sveltekit for this and really any web work but because this is a guide I will use the most used front end framework and my most hated framework nextJS and redux. 
