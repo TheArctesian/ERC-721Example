@@ -1,5 +1,9 @@
 # ERC-721Example
+## Node
 
+I'm going to use moralis as I think it is the best framework for developing dapps
+
+## IPFS
 First go to the [IPFS website](https://docs.ipfs.io/install/command-line/#official-distributions) and follow the install steps. I'm using arch btw so can install from the AUR with yay or aurman
 ```
 yay go-ipfs
@@ -60,7 +64,8 @@ ipfs add nft.json
 save the link
 https://ipfs.io/ipfs/QmTJYGFqSFYNY6zVudLbjuk1wRC8qDB6myAScc34pZbLDx
 
-
+<hr> 
+## Smart Contracts
 you can chose many framworks like brownie or hardhad each one will have diffrent methods I will use hardhat 
 
 install hardhat using 
@@ -104,3 +109,7 @@ npm install --save-dev @openzeppelin/hardhat-upgrades
 ```
 create a .sol file and just copy and paste the file in my contract
 
+<hr>
+## Front end 
+
+I would usually use sveltekit for this and really any web work but because this is a guide I will use the most used front end framework and my most hated framework nextJS and redux. 
